@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FootballApiTest.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace FootballApiTest
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new TeamPage();
         }
 
         protected override void OnStart()
